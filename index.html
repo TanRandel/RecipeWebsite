@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title> 1am thoughts recipe website</title>
+</head>
+<body>
+  
+  <div class="container">
+    <header>
+      <div class="logo"> 
+        <img  src="/image/logo.png" alt="Logo">
+      </div>
+    </header>
+    <div class="row">
+      <div class="col">
+        <h1>1 am Thoughts </h1>
+        <p>Welcome to our culinary hub, where pasta, ricemeal, espresso coffee, and frappes take center stage. Explore an exquisite collection of recipes that will tantalize your taste buds. From satisfying pasta dishes to flavorful rice meals, we have something for every palate. Indulge in the rich, aromatic experience of expertly brewed espresso or treat yourself to a refreshing frappe delight. Let our website be your recipe companion, guiding you on a culinary adventure filled with flavors that will leave you craving for more. Welcome to a world of culinary delights!<em> -Tan</em></p>
+      </div>
+      <div class="col">
+       <div class="card pasta" onclick="goToSubpage('/pasta/pasta.html')">
+          <h5>Pasta</h5>
+        </div>
+        <div class="card Espresso" onclick="goToSubpage('/espresso/espresso.html')">
+         <h5>Espresso</h5>
+        </div>
+        <div class="card Frappe" onclick="goToSubpage('/frappe/frappe.html')">
+          <h5>Frappe</h5>
+        </div>
+        <div class="card Silog"onclick="goToSubpage('/ricemeal/ricemeal.html')">
+          <h5>Rice Meal</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function goToSubpage(subpageUrl) {
+      window.open(subpageUrl, '_blank');
+    }
+  </script>
+</body>
+</html>

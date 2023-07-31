@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Coffee latte;
+}
+@font-face {font-family: "Coffee Latte"; src: url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.eot"); src: url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.woff") format("woff"), url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.svg#Coffee Latte") format("svg"); }
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image:url("/image/bg\ espresso.jpg");
+  background-size: cover;
+  padding-left: 2%;
+  padding-right: 2%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.logo {
+    display: inline-block;
+    margin:20px;
+}
+  
+.logo img {
+    height: 50px;
+    width: 50px;
+}
+.subpage-content {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .subpage-category {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .subpage-category img {
+    width: 150px;
+    height: 160px;
+    border-radius:5px;
+    transition: transform 0.5s;
+
+  }
+  .subpage-category img:hover{
+    transform: translateY(-10px);
+}
+ 
+  
+  .subpage-category p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }     

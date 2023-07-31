@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: Coffee latte;
+}
+@font-face {font-family: "Coffee Latte"; src: url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.eot"); src: url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.woff") format("woff"), url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.svg#Coffee Latte") format("svg"); }
+.logo {
+  display: inline-block;
+  margin:20px;
+ 
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+
+h1{
+  font-size: 100px;
+}
+
+h5{
+  font-size: 20px;
+  color: white;
+  text-shadow: 0 0 15px #000;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: url("/image/DALL·E\ 2023-06-18\ 15.27.30\ -\ background\ photo\ for\ coffe\ shop\ website\ gray\ and\ white\ theme.png");
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.row {
+  display:flex;
+  height: 88%;
+  align-items: center;
+
+}
+.col{
+  flex-basis:50%;
+}
+.card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding:15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover; 
+  transition: transform 0.5s;
+  
+
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+.pasta{
+  background-image: url("/image/Pasta.jpg");
+}
+.Espresso{
+  background-image: url("/image/Espresso.jpg");
+}
+.Frappe{
+  background-image: url("image/Ice\ blended.jpg");
+}
+.Silog{
+  background-image: url("/image/Silog.jpg");
+}
+
+     

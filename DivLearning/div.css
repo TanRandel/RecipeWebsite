@@ -1,0 +1,59 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url("/image/alfredo.png");
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+  
+   
+  }
+  
+
+  .col {
+    flex-basis: 50%;
+    border: 1px solid red;
+  }
+  
+ 
+  .logo {
+    border: 1px solid red;
+    display: inline-block;
+    margin:20px;
+   
+  }
+  .row {
+    outline: 2px solid black;
+    background-image: url("/image/alfredo.png");
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    height: 88%;
+    align-items: center;
+    
+  
+  }
+  
+  .card {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: blanchedalmond;
+    outline: 2px solid black;
+    padding: 15px 25px;
+    margin: 10px 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+   }
+
+   .mamamo{
+    font-size: 100px;
+   }
+
+/* 
+  
+  
+  

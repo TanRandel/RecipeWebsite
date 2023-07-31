@@ -1,0 +1,63 @@
+body {
+    font-family: Coffee Latte;
+    margin: 0;
+    padding: 0;
+    background-image: url("/image/pastabg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  @font-face {font-family: "Coffee Latte"; src: url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.eot"); src: url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.woff") format("woff"), url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ae8aabbf54def22a96a46a8a4c461e5b.svg#Coffee Latte") format("svg"); }
+  
+ 
+  header {
+    padding: 20px;
+    
+  }
+  
+  .logo {
+    display: inline-block;
+    margin:20px;
+   
+  }
+  
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .title {
+    display: inline-block;
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align:middle
+    
+  }
+  .subpage-content {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .subpage-category {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .subpage-category img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+
+  }
+  .subpage-category img:hover{
+    transform: translateY(-10px);
+}
+ 
+  
+  .subpage-category p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }     
